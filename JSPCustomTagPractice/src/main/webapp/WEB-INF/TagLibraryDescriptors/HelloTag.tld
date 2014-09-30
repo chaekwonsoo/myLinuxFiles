@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2003">
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>2.3</jsp-version>
+  <short-name>noveljsp</short-name>	<!-- 원하는 tag library의 이름 -->
+  <uri>http://localhost/hellotag</uri>	<!-- 원하는 uri -->
+  <description>Simple Hello Tag</description>
+  
+  <tag>
+    <name>hello</name>	<!-- custom tag의 이름 -->
+    <tag-class>com.github.chaekwonsoo.webboard.customtags.HelloTagInterface</tag-class>
+    <description>Say Hello</description>
+    <body-content>empty</body-content>
+  </tag>
+  
+</taglib>
